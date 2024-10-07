@@ -71,7 +71,7 @@ p {
 
 }
 
-div a:hover {
+.topnav a:hover {
     background-color: rgb(154, 48, 48);
     color: white;
 }
@@ -131,4 +131,21 @@ input[type=text]:hover {
 #h2-1 {
     color: white;
     margin-left: 10px;
+}
+
+
+i{
+    font-size: large;
+    padding: 10px;
+    color: white;
+}
+
+i:hover{
+    background-color: transparent;
+    color: gray;
+}
+
+a {
+    margin-right: 10px; /* Spazio tra le icone */
+    padding-bottom: 30px;
 }
